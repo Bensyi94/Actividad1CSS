@@ -2,6 +2,15 @@ body {
   background-color: #eee;
 }
 
+.caja {
+    background-color: rgb(41, 39, 39);
+    border-style: solid;
+    border-width: 2px;
+    border-color:  rgb(83, 43, 134);
+    border-radius: 2px;
+    border-top: solid 0px;
+}
+
 #navbar {
     background-color: #333; 
     position: fixed; 
@@ -25,5 +34,16 @@ body {
 }
 
 h1 {
-    padding-top: 40px;
+    margin-top: 60px;
+}
+
+.title {
+    color: white;
+    padding: 10px;
+    border-bottom: solid 1px rgb(83, 43, 134);
+}
+
+p {
+    padding-left: 10px;
+    color: white;
 }
