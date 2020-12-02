@@ -1,12 +1,12 @@
 body {
-  background-color: #eee;
+  background-image: linear-gradient(rgba(52, 18, 95, 1), rgba(83, 43, 134, 1));
 }
 
 .caja {
     background-color: rgb(41, 39, 39);
     border-style: solid;
     border-width: 2px;
-    border-color:  rgb(83, 43, 134);
+    border-color:grey;
     border-radius: 2px;
     border-top: solid 0px;
 }
@@ -30,7 +30,20 @@ body {
 }
   
 #navbar a:hover {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    transition: 0.3s;
+    transform: scale(1.02, 1.02);
     background-color: rgb(27, 44, 194);
+    border: 0px solid transparent;
+    border-left-color: rgb(27, 44, 194);
+    content: "";
+}
+
+
+
+.icon {
+
 }
 
 h1 {
@@ -40,7 +53,7 @@ h1 {
 .title {
     color: white;
     padding: 10px;
-    border-bottom: solid 1px rgb(83, 43, 134);
+    border-bottom: solid 1px grey;
 }
 
 p {
